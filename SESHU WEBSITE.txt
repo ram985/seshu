@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coder Portfolio</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css" >
+</head>
+
+<body>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.bgImage{
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHdlYnNpdGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size:2rem;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: palevioletred;
+    border: 2px solid yellowgreen;
+}
+.bicon{
+    width: 100%;
+    text-align: center;
+    font: 40px;
+}
+.img-fluid{
+    border: 2px solid yellowgreen;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 300;
+}
+.card-img-top{
+    height: 50vh;
+}
+  </style>
+  <!--Narbar Start-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand animate__animated animate__pulse animate__infinite	infinite" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#services">Services</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Narbar Ends-->
+  <!--Banner Starts-->
+  <section class=" bgImage" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 bannerText">
+          
+          <h2 class="bannerTitle"> Hi Here!!</h2>
+          <p class="bannerDesc">Seshu Kumar Rompicharla</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Banner Ends-->
+  <!--About start-->
+  <section>
+    <div class="container" data-aos="fade-up" id="about">
+      <h1 class="text-center">About Me</h1>
+      <div class="row">
+        <div class="col-md-4">
+          
+          <img src="./pic.png" alt="." data-aos="zoom-in" class="card-img img-fluid">
+        </div>
+
+
+        <div class="col-md-8">
+          <p>Currently I am final year student at Lingayas Institute of manag and Technology pursuing Computer Science and Engineering, am enthusiastic to learn new things based on that I am done internship at Swecha organization this portpolio website is my project
+            <div class="col-md-6">
+              <ul>
+                <li>Name: Seshu Kumar Rompicharla</li>
+                <li>Date of Birth: 17-05-2001</li>
+                <li>Occupation: B.Tech Computer Science @2024</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li>Technologies Working on:Machine Learning, Artificial Intelligence and Data Science</li>
+                <li>Portfolio: <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"
+                    class="text-decoration-none">Click Here for Portfolio</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <h1 style="text-align:left;">Educational Details</h1>
+            <ul>
+              <li><p><strong>Bachelor of Technology, Lingayas Institute of management and technology, Vijayawada</strong>
+              <sub>June 2020-Present</sub>
+              </p>
+              <p>As a part of my academics I am done one minor project facial
+              recognition system with machine learning using python, Now we are
+              plan to release it in the play store on next month.</p></li>
+                <li><p><strong>INTERMEDIATE, NARAYANA JUNIOR COLLEGE
+                 </strong>
+                <sub>June 2018-March 2020</sub>
+            </p>
+              <p>I competed my intermediate with aggregate CGPA 9.3.
+            </p></li>
+             <li> <p><strong>SSC, Sravanthi High School Gannavaram, Vijayawada</strong>
+              <sub> June 2017 April 2018</sub>
+            </p>
+            <p>
+             Completed my SSC with 9.8 GPA, am also done co-currucular activities like vally ball, Cricket.</p></ul>
+            </li></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--about Ends-->
+  <!--Services Start-->
+  <section>
+    <div class="container" data-aos="zoom-out" id="services">
+      <h1 class="text-center">Skills</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-award-fill"></i>C Programming</h5>
+              <p class="card-text">
+                C language is used for system programming, operating systems, embedded systems, desktop applications, compilers, networking applications, and game development. Its efficiency, low-level capabilities, and hardware access make it suitable for various domains where performance and direct control are essential.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>Web Developer</h5>
+              <p class="card-text">
+                Web development involves creating and maintaining websites and web applications. It enables businesses and individuals to have an online presence, showcase products/services, and interact with customers. Web development encompasses front-end development for user interfaces, back-end development for server-side functionality, and databases for data storage and retrieval, driving the modern internet experience.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4"> 
+           <div class="card my-3">
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-java"></i>Java Programming</h5>
+              <p class="card-text">Java is used for web development, enterprise applications, Android mobile app development, cloud-based services, big data processing, Internet of Things (IoT) applications, and scientific computing. Its platform independence, object-oriented nature, extensive libraries, and robust ecosystem make it a popular choice for a wide range of applications.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-py"></i>Python Programming</h5>
+              <p class="card-text">
+                Python is used for web development, data analysis, artificial intelligence, machine learning, automation, scientific computing, and scripting. Its simplicity, readability, extensive libraries, and community support make it ideal for rapid development across diverse fields, from small scripts to large-scale applications.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div class="card-body">
+              <h5 class="card-title  text-center"><i class="bi bi-server"></i>Computer Networking</h5>
+              <p class="card-text">Computer networks enable communication and resource sharing between devices and users across vast geographical distances. They facilitate internet access, file sharing, email, online gaming, video streaming, and social media. In businesses, networks support data transfer, remote collaboration, cloud services, and centralized management, enhancing productivity and connectivity.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4"> 
+           <div class="card my-3">
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-microsoft"></i>Ms Office</h5>
+              <p class="card-text">
+                Microsoft Office is a suite of productivity applications used for various tasks in offices and homes. It includes Word for word processing, Excel for spreadsheets and data analysis, PowerPoint for presentations, Outlook for email and calendar management, and more. MS Office is vital for documentation, data organization, and communication tasks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!--SErvices Ends-->
+   <!--portfolio Start-->
+    
+    <section id="portfolio">
+      <div class="container"  data-aos="zoom-in-right">
+        <h1 class="text-center">Certifications</h1>
+        <div  class="row"> 
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img src="./html.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Web APP Certification</h5>
+                <p class="card-text">This is a 2 months internship program done at Swecha Organization</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img src="./python.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AWS</h5>
+                <p class="card-text">This is also 2 months internship program done at AWS</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+<!--Portfolio Ends-->
+<!--Contact Starts-->
+<section id="contact">
+  <div class="container-fluid">
+    <h1 class="text-center animate__bounce animate__animated animate__infinite	infinite">Connect with Me !!</h1>
+    <div class="row">
+    <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1016.1163924151484!2d80.77656716350857!3d16.603068404633785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDM2JzEwLjQiTiA4MMKwNDYnMzUuMiJF!5e0!3m2!1sen!2sin!4v1690020499445!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    <div class="col-md-6"> 
+      <Form>
+        <div class="mb-3">
+          <label for="FullName" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="FullNmae" placeholder="Enter Your Full Name">
+        </div>
+        <div class="mb-3">
+          <label for="emailInput" class="form-label">Full Name</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="Enter Your email Address">
+        </div>
+        <div class="mb-3">
+          <label for="teleInput" class="form-label">Full Name</label>
+          <input type="tel" class="form-control" id="teleInput" placeholder="Enter Your Contact Number">
+        </div>
+        <div class="mb-3">
+          <label for="textArea" class="form-label">Enter your Querey Here</label>
+          <textarea class="form-control" id="textArea" rows="3" placeholder="Enter Your Querey Here"></textarea>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3">Submit</button>
+        </div>
+      </Form>
+    </div></div>
+  </div>
+</section>
+<!--Contact Ends-->
+<!--Footer Starts-->
+<footer id="footer">
+<div class="container-fluid bg-dark py-2">
+  <div class="mt-4 text-center px-1">
+    <a href="http:www.fb.com" target="_blank" rel="noopener
+    noreferrer"><i class="bi bi-facebook bIcon"></i></a>
+    <a href="http:www.fb.com" target="_blank" rel="noopener
+    noreferrer"><i class="bi bi-twitter bIcon"></i></a>
+    <a href="http:www.fb.com" target="_blank" rel="noopener
+    noreferrer"><i class="bi bi-linkedin bIcon"></i></a>
+  </div>
+</div>
+</footer>
+<!--Footer Ends-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
